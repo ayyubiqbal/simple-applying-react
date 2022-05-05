@@ -27,6 +27,11 @@ const Layout = (props) => {
                                 Help
                             </Link>
                         </li>
+                        <li>
+                            <Link className={path === '/clock' ? classes.activeNavItem : classes.navItem} to="/clock">
+                                Clock
+                            </Link>
+                        </li>
                     </ul>
                 </div>
             </nav>
